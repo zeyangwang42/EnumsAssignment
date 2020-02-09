@@ -14,11 +14,11 @@ public class DuongXinyuEvaluatorTest {
 
         // When
         boolean isDuong = abc.isDuong();
-        boolean isXingyu = abc.isXingyu();
+        boolean isXinyu = abc.isXinyu();
 
         // Then
         Assert.assertFalse(isDuong);
-        Assert.assertFalse(isXingyu);
+        Assert.assertFalse(isXinyu);
     }
 
     @Test
@@ -29,26 +29,26 @@ public class DuongXinyuEvaluatorTest {
 
         // When
         boolean isDuong = abc.isDuong();
-        boolean isXingyu = abc.isXingyu();
+        boolean isxinyu = abc.isXinyu();
 
         // Then
         Assert.assertFalse(isDuong);
-        Assert.assertFalse(isXingyu);
+        Assert.assertFalse(isxinyu);
     }
 
     @Test
-    public void testXingyu() {
+    public void testxinyu() {
         // Given
-        String input = "Xingyu";
+        String input = "xinyu";
         DuongXinyuEvaluator abc = new DuongXinyuEvaluator(input);
 
         // When
         boolean isDuong = abc.isDuong();
-        boolean isXingyu = abc.isXingyu();
+        boolean isxinyu = abc.isxinyu();
 
         // Then
         Assert.assertFalse(isDuong);
-        Assert.assertTrue(isXingyu);
+        Assert.assertTrue(isxinyu);
     }
 
 
@@ -60,10 +60,10 @@ public class DuongXinyuEvaluatorTest {
 
         // When
         boolean isDuong = abc.isDuong();
-        boolean isXingyu = abc.isXingyu();
+        boolean isxinyu = abc.isxinyu();
 
         // Then
         Assert.assertTrue(isDuong);
-        Assert.assertFalse(isXingyu);
+        Assert.assertFalse(isxinyu);
     }
 }

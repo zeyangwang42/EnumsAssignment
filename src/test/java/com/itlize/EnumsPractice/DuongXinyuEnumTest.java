@@ -10,7 +10,7 @@ public class DuongXinyuEnumTest {
     @Test
     public void testDuongName() {
         // Given
-        Duong duong = DuongXingyuEnum.Duong;
+        Duong duong = DuongxinyuEnum.Duong;
         String expected = "Duong";
 
         // When
@@ -24,7 +24,7 @@ public class DuongXinyuEnumTest {
     @Test
     public void testXinyuName() {
         // Given
-        DuongXingyuEnum Xinyu = DuongXingyuEnum.Xinyu;
+        DuongxinyuEnum Xinyu = DuongxinyuEnum.Xinyu;
         String expected = "Xinyu";
 
         // When
@@ -39,7 +39,7 @@ public class DuongXinyuEnumTest {
     @Test
     public void testDuongCatchPhrase() {
         // Given
-        DuongXingyuEnum Duong = DuongXingyuEnum.Duong;
+        DuongxinyuEnum Duong = DuongxinyuEnum.Duong;
         String expected = "Hey, my name is Duong!";
 
         // When
@@ -53,7 +53,7 @@ public class DuongXinyuEnumTest {
     @Test
     public void testXinyuCatchPhrase() {
         // Given
-        DuongXingyuEnum Xinyu = DuongXingyuEnum.Xinyu;
+        DuongxinyuEnum Xinyu = DuongxinyuEnum.Xinyu;
         String expected = "Hey, my name is Xinyu!";
 
         // When
@@ -66,7 +66,7 @@ public class DuongXinyuEnumTest {
     @Test
     public void testDuongIsDuong() {
         // Given
-        DuongXingyuEnum Duong = DuongXingyuEnum.Duong;
+        DuongxinyuEnum Duong = DuongxinyuEnum.Duong;
 
         // When
         boolean outcome = Duong.isDuong();
@@ -79,7 +79,7 @@ public class DuongXinyuEnumTest {
     @Test
     public void testDuongIsXinyu() {
         // Given
-        DuongXingyuEnum Duong = DuongXingyuEnum.Duong;
+        DuongxinyuEnum Duong = DuongxinyuEnum.Duong;
 
         // When
         boolean outcome = Duong.isXinyu();
@@ -92,7 +92,7 @@ public class DuongXinyuEnumTest {
     @Test
     public void testXinyuIsXinyu() {
         // Given
-        DuongXingyuEnum Xinyu = DuongXingyuEnum.Xinyu;
+        DuongxinyuEnum Xinyu = DuongxinyuEnum.Xinyu;
 
         // When
         boolean outcome = Xinyu.isXinyu();
@@ -104,7 +104,7 @@ public class DuongXinyuEnumTest {
     @Test
     public void testXinyuIsDuong() {
         // Given
-        DuongXingyuEnum Xinyu = DuongXingyuEnum.Xinyu;
+        DuongxinyuEnum Xinyu = DuongxinyuEnum.Xinyu;
 
         // When
         boolean outcome = Xinyu.isDuong();
