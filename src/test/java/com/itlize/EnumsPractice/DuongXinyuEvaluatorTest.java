@@ -29,11 +29,11 @@ public class DuongXinyuEvaluatorTest {
 
         // When
         boolean isDuong = abc.isDuong();
-        boolean isxinyu = abc.isXinyu();
+        boolean isXinyu = abc.isXinyu();
 
         // Then
         Assert.assertFalse(isDuong);
-        Assert.assertFalse(isxinyu);
+        Assert.assertFalse(isXinyu);
     }
 
     @Test
@@ -44,11 +44,11 @@ public class DuongXinyuEvaluatorTest {
 
         // When
         boolean isDuong = abc.isDuong();
-        boolean isxinyu = abc.isxinyu();
+        boolean isXinyu = abc.isXinyu();
 
         // Then
         Assert.assertFalse(isDuong);
-        Assert.assertTrue(isxinyu);
+        Assert.assertTrue(isXinyu);
     }
 
 
@@ -60,10 +60,10 @@ public class DuongXinyuEvaluatorTest {
 
         // When
         boolean isDuong = abc.isDuong();
-        boolean isxinyu = abc.isxinyu();
+        boolean isXinyu = abc.isXinyu();
 
         // Then
         Assert.assertTrue(isDuong);
-        Assert.assertFalse(isxinyu);
+        Assert.assertFalse(isXinyu);
     }
 }
