@@ -39,7 +39,7 @@ public class DuongXinyuEvaluatorTest {
     @Test
     public void testxinyu() {
         // Given
-        String input = "xinyu";
+        String input = "Xinyu";
         DuongXinyuEvaluator abc = new DuongXinyuEvaluator(input);
 
         // When
