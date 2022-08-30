@@ -6,6 +6,7 @@ import org.junit.Test;
  * Created by yang on 02/03/20.
  */
 public class DuongXinyuEvaluatorTest {
+
     @Test
     public void testyang() {
         // Given
@@ -67,3 +68,4 @@ public class DuongXinyuEvaluatorTest {
         Assert.assertFalse(isXinyu);
     }
 }
+
